@@ -1,0 +1,6 @@
+2021-05-26 21:11:30,651 INFO  [Log] log_in() PASSED 
+2021-05-26 21:11:37,354 INFO  [Log] search_a_product() PASSED 
+2021-05-26 21:11:51,699 INFO  [Log] select_a_product() PASSED 
+2021-05-26 21:11:58,222 INFO  [Log] add_product_to_cart() PASSED 
+2021-05-26 21:12:01,527 INFO  [Log] go_to_cart() PASSED 
+2021-05-26 21:12:05,679 INFO  [Log] delete_product_to_cart() PASSED 

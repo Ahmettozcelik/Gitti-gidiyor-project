@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="OtherTest" time="7.947" tests="4" errors="3" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1254"/>
+    <property name="java.class.path" value="C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje\target\test-classes;C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje\target\classes;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kisbu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kisbu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kisbu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kisbu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kisbu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kisbu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kisbu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kisbu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kisbu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kisbu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\kisbu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kisbu\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\kisbu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kisbu\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\kisbu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\kisbu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\kisbu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kisbu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\kisbu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\kisbu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\kisbu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\kisbu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\kisbu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kisbu\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kisbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Istanbul"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="TR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\kisbu\AppData\Local\Temp\surefire7944476337636042674\surefirebooter6958630401853304279.jar C:\Users\kisbu\AppData\Local\Temp\surefire7944476337636042674 2021-05-26T08-55-14_982-jvmRun1 surefire17797758283343443530tmp surefire_011511131359482735680tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje\target\test-classes;C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje\target\classes;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\kisbu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\kisbu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\kisbu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\kisbu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\kisbu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\kisbu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\kisbu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\kisbu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\kisbu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\kisbu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\kisbu\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\kisbu\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\kisbu\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\kisbu\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\kisbu\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\kisbu\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\kisbu\.m2\repository\io\github\bonigarcia\webdrivermanager\4.4.3\webdrivermanager-4.4.3.jar;C:\Users\kisbu\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\kisbu\.m2\repository\commons-io\commons-io\2.8.0\commons-io-2.8.0.jar;C:\Users\kisbu\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\kisbu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.2\httpcore5-h2-5.0.2.jar;C:\Users\kisbu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\kisbu\.m2\repository\org\rauschig\jarchivelib\1.1.0\jarchivelib-1.1.0.jar;C:\Users\kisbu\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\kisbu\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\kisbu\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\kisbu\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\kisbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kisbu"/>
+    <property name="user.language" value="tr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kisbu\AppData\Local\Temp\surefire7944476337636042674\surefirebooter6958630401853304279.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="user.name" value="kisbu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1254"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kisbu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kisbu\AppData\Local\Temp\"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="user.dir" value="C:\Users\kisbu\IdeaProjects\gitti-gidiyor-proje"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\kisbu\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.8.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+  </properties>
+  <testcase name="search_a_product" classname="OtherTest" time="3.623">
+    <failure message="It&apos;s not product page.! ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: It's not product page.! ==> expected: <true> but was: <false>
+	at OtherTest.search_a_product(OtherTest.java:50)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 15987
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 26, 2021 8:55:17 ÖÖ org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="select_a_product" classname="OtherTest" time="0.02">
+    <error message="Index 1 out of bounds for length 1" type="java.lang.IndexOutOfBoundsException">java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at OtherTest.select_a_product(OtherTest.java:58)
+</error>
+  </testcase>
+  <testcase name="add_product_to_cart" classname="OtherTest" time="0.033">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;a[aria-label=&apos;Adeti ArtÄ±r&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.212)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-RHJ3F8M&apos;, ip: &apos;10.0.32.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\kisbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 68d96b6b8fa843ead48ac94db942562a&#10;*** Element info: {Using=css selector, value=a[aria-label=&apos;Adeti ArtÄ±r&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"a[aria-label='Adeti ArtÄ±r']"}
+  (Session info: chrome=90.0.4430.212)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHJ3F8M', ip: '10.0.32.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\kisbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68d96b6b8fa843ead48ac94db942562a
+*** Element info: {Using=css selector, value=a[aria-label='Adeti ArtÄ±r']}
+	at OtherTest.add_product_to_cart(OtherTest.java:65)
+</error>
+  </testcase>
+  <testcase name="go_to_cart" classname="OtherTest" time="0.182">
+    <error message="element not interactable&#10;  (Session info: chrome=90.0.4430.212)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-RHJ3F8M&apos;, ip: &apos;10.0.32.23&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\kisbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 68d96b6b8fa843ead48ac94db942562a" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RHJ3F8M', ip: '10.0.32.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\kisbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64576}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 68d96b6b8fa843ead48ac94db942562a
+	at OtherTest.go_to_cart(OtherTest.java:74)
+</error>
+  </testcase>
+</testsuite>
